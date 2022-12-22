@@ -1,0 +1,67 @@
+{
+    "results": [
+    {
+    "id": 641435,
+    "title": "Dessert Apple Rings With Cinnamon Cream Syrup",
+    "image": "https://spoonacular.com/recipeImages/641435-312x231.jpg",
+    "imageType": "jpg"
+    },
+    {
+    "id": 641445,
+    "title": "Dessert That's No Problem: Baked Pears with Oatmeal Crumble",
+    "image": "https://spoonacular.com/recipeImages/641445-312x231.jpg",
+    "imageType": "jpg"
+    },
+    {
+    "id": 641537,
+    "title": "Dirt Dessert",
+    "image": "https://spoonacular.com/recipeImages/641537-312x231.png",
+    "imageType": "png"
+    },
+    {
+    "id": 649390,
+    "title": "Lean Dessert Brownie",
+    "image": "https://spoonacular.com/recipeImages/649390-312x231.jpg",
+    "imageType": "jpg"
+    },
+    {
+    "id": 649348,
+    "title": "Layered Dessert",
+    "image": "https://spoonacular.com/recipeImages/649348-312x231.jpg",
+    "imageType": "jpg"
+    },
+    {
+    "id": 657295,
+    "title": "Pumpkin Dessert With Butterscotch-Rum Sauce",
+    "image": "https://spoonacular.com/recipeImages/657295-312x231.jpg",
+    "imageType": "jpg"
+    },
+    {
+    "id": 642471,
+    "title": "Eton Mess Dessert",
+    "image": "https://spoonacular.com/recipeImages/642471-312x231.jpg",
+    "imageType": "jpg"
+    },
+    {
+    "id": 1095795,
+    "title": "Brigadeiros Dessert",
+    "image": "https://spoonacular.com/recipeImages/1095795-312x231.jpg",
+    "imageType": "jpg"
+    },
+    {
+    "id": 643902,
+    "title": "Frozen Fruit Dessert",
+    "image": "https://spoonacular.com/recipeImages/643902-312x231.jpg",
+    "imageType": "jpg"
+    },
+    {
+    "id": 644027,
+    "title": "Fruit Terrine Dessert",
+    "image": "https://spoonacular.com/recipeImages/644027-312x231.jpg",
+    "imageType": "jpg"
+    }
+    ],
+    "offset": 0,
+    "number": 10,
+    "totalResults": 320
+    }

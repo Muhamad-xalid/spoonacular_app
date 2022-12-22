@@ -1,0 +1,25 @@
+{
+    "results": [
+    {
+    "id": 715567,
+    "title": "Beef Fajita Marinade",
+    "image": "https://spoonacular.com/recipeImages/715567-312x231.jpg",
+    "imageType": "jpg"
+    },
+    {
+    "id": 648408,
+    "title": "Jamaican Jerk Rub And Seasoning",
+    "image": "https://spoonacular.com/recipeImages/648408-312x231.jpg",
+    "imageType": "jpg"
+    },
+    {
+    "id": 641029,
+    "title": "Cumin and Paprika Rubbed Chicken Drumsticks",
+    "image": "https://spoonacular.com/recipeImages/641029-312x231.jpg",
+    "imageType": "jpg"
+    }
+    ],
+    "offset": 0,
+    "number": 10,
+    "totalResults": 3
+    }
