@@ -1,11 +1,23 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {useLocation} from 'react-router-dom'
 
-export default function Ourmeal() {
-    
+export default function Ourmeal(props) {
+  
+  let location = useLocation();
+    console.log(location.state.darkmode);
+    const darkmode = location.state.darkmode
+
+  
+  
   return (
-    <div>
-        Ourmeal
+    <div className={`'  ${darkmode && 'dark:bg-black text-white'} '`}>
+        <div>Ourmeal</div>
+        <div>Ourmeal</div>
+        <div>Ourmeal</div>
+        <div>Ourmeal</div>
+        <div>Ourmeal</div>
+        <div>Ourmeal</div>
+        <div>Ourmeal</div>
     </div>
   )
 }

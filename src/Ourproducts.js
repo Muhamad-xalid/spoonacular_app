@@ -1,14 +1,18 @@
 import React ,{useState} from 'react'
 import data from './ourproducts.json'
-import { Link } from 'react-router-dom';
-import { FaArrowLeft } from "react-icons/fa";
+import { Link , useLocation } from 'react-router-dom';
+import { FaArrowLeft } from "react-icons/fa"; 
 
 export default function Ourproducts() {
-    console.log(data.results);
+    // console.log(data.results);
     const [recipes,setrecipes] = useState(data.results)
-    
+
+    let location = useLocation();
+    console.log(location.state.darkmode);
+    const darkmode = location.state.darkmode
+
 return (
-   <div className={`'m-0 p-0 '`}>
+   <div className={`'m-0 p-0 ${darkmode && 'dark:bg-black'} '`}>
      <div className='container mx-auto '>
         <div className='pt-10'>
             <div className='flex justify-between'>
