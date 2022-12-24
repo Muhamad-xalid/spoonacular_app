@@ -5,16 +5,11 @@ import AmericanCuisine from '../src/Cuisine/american.json'
 import { FaArrowLeft } from "react-icons/fa"; 
 export default function American() {
   const [americanCuisine,setamericanCuisine] = useState(AmericanCuisine.results)
-  console.log(americanCuisine);
 
-
-  // let location = useLocation();
-  //   console.log(location.state.darkmode);
-  //   const darkmode = location.state.darkmode
   return (
     <div>
       <OurmealNavbar/>
-      <div className={`'m-0 p-0 ${'dark:bg-black'} '`}>
+      <div>
      <div className='container mx-auto '>
         <div className='pt-10'>
             <div className='flex justify-between'>

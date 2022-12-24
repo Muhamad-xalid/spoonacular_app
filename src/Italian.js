@@ -2,18 +2,14 @@ import React ,{useState} from 'react'
 import OurmealNavbar from './Components/OurmealNavbar';
 import ItalianCuisine from '../src/Cuisine/italian.json'
 import { FaArrowLeft } from "react-icons/fa"; 
-import { Link ,useLocation } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export default function Italian() {
-
   const [italianCuisine,setitalianCuisine] = useState(ItalianCuisine.results)
-  console.log(italianCuisine);
-
-
   return (
     <div>
       <OurmealNavbar/>
-      <div className={`'m-0 p-0 ${'dark:bg-black'} '`}>
+      <div className={``}>
      <div className='container mx-auto '>
         <div className='pt-10'>
             <div className='flex justify-between'>
@@ -33,7 +29,6 @@ export default function Italian() {
         </div>
     </div>
    </div>
-
     </div>
   )
 }
