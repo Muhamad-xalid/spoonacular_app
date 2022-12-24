@@ -1,5 +1,6 @@
 import React from 'react'
 import {useLocation} from 'react-router-dom'
+import OurmealNavbar from './Components/OurmealNavbar';
 
 export default function Ourmeal(props) {
   
@@ -11,13 +12,7 @@ export default function Ourmeal(props) {
   
   return (
     <div className={`'  ${darkmode && 'dark:bg-black text-white'} '`}>
-        <div>Ourmeal</div>
-        <div>Ourmeal</div>
-        <div>Ourmeal</div>
-        <div>Ourmeal</div>
-        <div>Ourmeal</div>
-        <div>Ourmeal</div>
-        <div>Ourmeal</div>
+        <OurmealNavbar/>
     </div>
   )
 }
