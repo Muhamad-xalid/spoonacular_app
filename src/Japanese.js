@@ -3,18 +3,17 @@ import OurmealNavbar from './Components/OurmealNavbar';
 import JapaneseCuisine from '../src/Cuisine/japanese.json'
 import { FaArrowLeft } from "react-icons/fa"; 
 import { Link } from 'react-router-dom'
-
+import {useSelector} from 'react-redux'
 export default function Japanese() {
   const [japaneseCuisine,setjapaneseCuisine] = useState(JapaneseCuisine.results)
+  const darkmode = useSelector ((state)=>state.darkmode.darkmode)
   return (
-    <div >
+    <div  className={`${darkmode && 'dark:bg-black'}`}>
       <OurmealNavbar/>
-      <div className={``}>
-     <div className='container mx-auto '>
+      <div>
+     <div className='container mx-auto' >
         <div className='pt-10'>
-            <div className='flex justify-between'>
             <Link to='/' className='text-xl text-red-900 '><FaArrowLeft/></Link>
-            </div>
             <h1 className='text-center mb-7 text-3xl text-red-900 font-black '>Japanese Cuisine</h1>
         </div>
         <div className='grid grid-cols-1  md:grid-cols-2  lg:grid-cols-3 '>

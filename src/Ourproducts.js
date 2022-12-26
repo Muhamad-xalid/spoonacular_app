@@ -1,22 +1,20 @@
-import React ,{useState} from 'react'
+import React , {useState} from 'react'
 import data from './ourproducts.json'
-import { Link , useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { FaArrowLeft } from "react-icons/fa"; 
-
+import {useSelector} from 'react-redux'
 export default function Ourproducts() {
+    const darkmode = useSelector ((state)=>state.darkmode.darkmode)
     const [recipes,setrecipes] = useState(data.results)
 
-    let location = useLocation();
-    console.log(location.state.darkmode);
-    const darkmode = location.state.darkmode
 return (
    <div className={`'m-0 p-0 ${darkmode && 'dark:bg-black'} '`}>
      <div className='container mx-auto '>
         <div className='pt-10'>
             <div className='flex justify-between'>
-            <Link to='/' className={`text-xl text-red-900  ${darkmode && 'dark:text-white'}`}><FaArrowLeft/></Link>
+            <Link to='/' className={`text-xl text-red-900`}><FaArrowLeft/></Link>
             </div>
-            <h1 className={`text-center mb-7 text-3xl text-red-900 font-black ${darkmode && 'dark:text-white'}`}>Our Products</h1>
+            <h1 className={`text-center mb-7 text-3xl text-red-900 `}>Our Products</h1>
         </div>
         <div className='grid grid-cols-1  md:grid-cols-2  lg:grid-cols-3 '>
         { recipes && recipes.map((recipe)=>{

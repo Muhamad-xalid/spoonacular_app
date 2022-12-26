@@ -4,13 +4,10 @@ import {GiHamburger} from 'react-icons/gi'
 import {GiNoodles} from 'react-icons/gi'
 import {GiChopsticks} from 'react-icons/gi'
 import { Link } from 'react-router-dom'
-
-export default function OurmealNavbar(props) {
-    // const darkmode = props.darkmodeTheme
-    // console.log(darkmode);
+export default function OurmealNavbar() {
   return (
     <div className=''>
-        <div className='flex  justify-center mt-5 '>
+        <div className='flex  justify-center py-5 '>
             <div className='md:flex'>
                 <Link to='/Ourmeal/American' className='mx-5 mb-2 flex flex-col items-center justify-center  bg-red-900 w-20 h-20  text-white rounded-full'>
                     <div>American</div>
