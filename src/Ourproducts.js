@@ -6,7 +6,6 @@ import {useSelector} from 'react-redux'
 export default function Ourproducts() {
     const darkmode = useSelector ((state)=>state.darkmode.darkmode)
     const [recipes,setrecipes] = useState(data.results)
-
 return (
    <div className={`'m-0 p-0 ${darkmode && 'dark:bg-black'} '`}>
      <div className='container mx-auto '>
