@@ -1,11 +1,11 @@
-import React , {useState} from 'react'
+import React from 'react'
 import OurmealNavbar from './Components/OurmealNavbar';
 import ThaiCuisine from '../src/Cuisine/thai.json'
 import { FaArrowLeft } from "react-icons/fa"; 
 import { Link  } from 'react-router-dom'
 import {useSelector} from 'react-redux'
 export default function Thai() {
-  const [thaiCuisine,setthaiCuisine] = useState(ThaiCuisine.results)
+  const thaiCuisine = ThaiCuisine.results
   const darkmode = useSelector ((state)=>state.darkmode.darkmode)
   return (
     <div className={`${darkmode && 'dark:bg-black'}`}>

@@ -1,11 +1,11 @@
-import React , {useState} from 'react'
+import React from 'react'
 import data from './ourproducts.json'
 import { Link } from 'react-router-dom';
 import { FaArrowLeft } from "react-icons/fa"; 
 import {useSelector} from 'react-redux'
 export default function Ourproducts() {
     const darkmode = useSelector ((state)=>state.darkmode.darkmode)
-    const [recipes,setrecipes] = useState(data.results)
+    const recipes = data.results
 return (
    <div className={`'m-0 p-0 ${darkmode && 'dark:bg-black'} '`}>
      <div className='container mx-auto '>

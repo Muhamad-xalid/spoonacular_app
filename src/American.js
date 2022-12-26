@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import OurmealNavbar from './Components/OurmealNavbar'
 import AmericanCuisine from '../src/Cuisine/american.json'
 import { FaArrowLeft } from "react-icons/fa"; 
 import {useSelector} from 'react-redux'
 export default function American() {
-  const [americanCuisine,setamericanCuisine] = useState(AmericanCuisine.results)
+  const americanCuisine = AmericanCuisine.results
   const darkmode = useSelector ((state)=>state.darkmode.darkmode)
   return (
     <div className={`${darkmode && 'dark:bg-black '}`}>
