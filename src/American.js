@@ -13,7 +13,9 @@ export default function American() {
       <div>
      <div className='container mx-auto '>
         <div className='pt-10'>
-            <Link to='/' className='text-xl text-red-900 '><FaArrowLeft/></Link>
+           <div className='pl-3'>
+           <Link to='/' className='text-xl text-red-900 '><FaArrowLeft/></Link>
+           </div>
             <h1 className='text-center mb-7 text-3xl text-red-900 font-black '>American Cuisine</h1>
         </div>
         <div className='grid grid-cols-1  md:grid-cols-2  lg:grid-cols-3 '>

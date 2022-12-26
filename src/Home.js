@@ -10,7 +10,7 @@ export default function Home() {
   const darkmodee = useSelector ((state)=>state.darkmode.darkmode)
   const dispatch = useDispatch()
   return (
-    <div className={`w-full h-3/4 text-red-900 ${darkmodee && 'dark:bg-black'}`}>
+    <div className={`w-full pb-36 text-red-900 ${darkmodee && 'dark:bg-black'}`}>
       <h1 className={`text-center pt-4 text-3xl font-bold `}>Spoonacular</h1>
       <div className='container mx-auto pt-20 pb-4 flex flex-col items-center md:flex-row'>
           <div className=' w-full flex justify-around mb-10 md:flex-col md:h-72 md:justify-between'>

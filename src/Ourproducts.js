@@ -10,7 +10,7 @@ return (
    <div className={`'m-0 p-0 ${darkmode && 'dark:bg-black'} '`}>
      <div className='container mx-auto '>
         <div className='pt-10'>
-            <div className='flex justify-between'>
+            <div className='pl-3 flex justify-between'>
             <Link to='/' className={`text-xl text-red-900`}><FaArrowLeft/></Link>
             </div>
             <h1 className={`text-center mb-7 text-3xl text-red-900 `}>Our Products</h1>
