@@ -21,7 +21,7 @@ export default function Home() {
                </div>
           </div>
           <div className='mx-10'>
-            <ReactCarousel/>  
+            <ReactCarousel/>
           </div>      
      </div>
     </div>
